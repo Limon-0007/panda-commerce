@@ -99,16 +99,20 @@ body {
 }
 
 .categories p a {
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
   font-family: "poppins", sans-serif;
   font-weight: 500;
   font-size: 15px;
   text-decoration: none;
   color: #000000;
-  transition: 0.5s;
+  transition: 1s;
 }
 
 .categories p a:hover {
-  color: #ff136f;
+  box-shadow: inset 150px 0 0 0 #54b3d6;
+  color: white;
 }
 
 .cat1,
@@ -164,16 +168,20 @@ body {
 }
 
 .shoes p a {
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
   font-family: "poppins", sans-serif;
   font-weight: 500;
   font-size: 15px;
   text-decoration: none;
   color: #000000;
-  transition: 0.5s;
+  transition: 0.7s;
 }
 
 .shoes p a:hover {
-  color: #ff136f;
+  box-shadow: inset 100px 0 0 0 #54b3d6;
+  color: white;
 }
 
 .shoes .card {
@@ -229,18 +237,21 @@ body {
 }
 
 .backpack p a {
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
   font-family: "poppins", sans-serif;
   font-weight: 500;
   font-size: 15px;
   text-decoration: none;
   color: #000000;
-  transition: 0.5s;
+  transition: 0.7s;
 }
 
 .backpack p a:hover {
-  color: #ff136f;
+  box-shadow: inset 100px 0 0 0 #54b3d6;
+  color: white;
 }
-
 
 .backpack .card-title {
   font-family: "poppins", sans-serif;
