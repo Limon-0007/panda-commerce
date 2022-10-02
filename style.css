@@ -48,7 +48,6 @@ body {
   padding: 20px 40px;
 }
 
-
 .col-lg-7 h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -92,11 +91,24 @@ body {
 
 /* categories section starts from here */
 
-.categories .mb-5 {
+.categories h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 36px;
   color: #1f1f1f;
+}
+
+.categories p a {
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  text-decoration: none;
+  color: #000000;
+  transition: 0.5s;
+}
+
+.categories p a:hover {
+  color: #ff136f;
 }
 
 .cat1,
@@ -107,17 +119,28 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 36px;
-  color: #ffffff;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
   cursor: pointer;
+}
+
+.cat1 h1 {
+  color: #fff;
 }
 
 .cat1 {
   background-image: linear-gradient(152.07deg, #ff9c35 1.47%, #ffd019 97.17%);
 }
 
+.cat2 h1 {
+  color: #fff;
+}
+
 .cat2 {
   background-image: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
+}
+
+.cat3 h1 {
+  color: #fff;
 }
 
 .cat3 {
@@ -138,6 +161,19 @@ body {
   font-weight: 600;
   font-size: 36px;
   color: #1f1f1f;
+}
+
+.shoes p a {
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  text-decoration: none;
+  color: #000000;
+  transition: 0.5s;
+}
+
+.shoes p a:hover {
+  color: #ff136f;
 }
 
 .shoes .card {
@@ -191,6 +227,20 @@ body {
   font-size: 36px;
   color: #1f1f1f;
 }
+
+.backpack p a {
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  text-decoration: none;
+  color: #000000;
+  transition: 0.5s;
+}
+
+.backpack p a:hover {
+  color: #ff136f;
+}
+
 
 .backpack .card-title {
   font-family: "poppins", sans-serif;
