@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+/* font-family: 'Poppins', sans-serif; */
+
+body {
+  background-color: #e5e5e5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* some useful links */
+
+/* navbar starts here */
+
+.container {
+  margin-bottom: 100px;
+}
+
+.search {
+  border-radius: 30px;
+  outline: none !important;
+  border: none;
+  background: #f1f1f1;
+}
+
+.nav-link {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #707070;
+}
+
+.nav-link:hover {
+  color: #ff136f;
+}
+
+/* carousel item starts from here */
+
+.carousel-item .row {
+  background-color: #feeae9;
+  padding: 20px 40px;
+}
+
+.col-lg-7 h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #1f1f1f;
+}
+
+.col-lg-7 p {
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #4e4e4e;
+}
+
+.col-lg-7 .price {
+  color: #ff136f;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.col-lg-7 button {
+  border: none;
+  border-radius: 6px;
+  background-image: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
+  color: #fff;
+  padding: 10px 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+/* carousel section starts here */
+
+.categories .mb-5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  color: #1f1f1f;
+}
+
+.cat1,
+.cat2,
+.cat3 {
+  padding: 20px 40px;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  color: #ffffff;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+
+.cat1 {
+  background-image: linear-gradient(152.07deg, #ff9c35 1.47%, #ffd019 97.17%);
+}
+
+.cat2 {
+  background-image: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
+}
+
+.cat3 {
+  background-image: linear-gradient(170.41deg, #4289ff -10.89%, #3f07f8 92.77%);
+}
+
+.col-lg-4 img {
+  height: 94px;
+  width: 94px;
+}
+
+/* categories section ends here */
+
+/* shoes section starts from here */
+
+.shoes h1 {
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  color: #1f1f1f;
+}
+
+.shoes .card {
+  border: none;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.shoes .card-title {
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #1f1f1f;
+}
+
+.shoes .card-text {
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #4e4e4e;
+}
+
+.card-body h5 {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 24px;
+  color: #1f1f1f;
+}
+
+
+.card-body button {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 12px;
+  background-color: #000000;
+  color: #fff;
+}
+
+/* backpack section starts from here */
+
+.backpack h1 {
+  font-family: 'poppins', sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  color: #1f1f1f;
+}
