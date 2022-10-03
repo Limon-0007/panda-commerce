@@ -528,6 +528,11 @@ body {
   font-family: "poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
+  transition: 0.5s;
+}
+
+.text-center a:hover {
+  color: rgb(247, 10, 57);
 }
 
 /* courtesy section ends here */
