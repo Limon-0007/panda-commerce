@@ -12,12 +12,12 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-/* some useful links */
+/* some common links */
 
-/* navbar starts here */
+/* navbar starts from here */
 
 .container {
   margin-bottom: 100px;
