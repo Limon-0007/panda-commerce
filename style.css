@@ -84,7 +84,6 @@ body {
 .col-lg-7 button {
   border: none;
   border-radius: 6px;
-  /* background-image: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%); */
   background-color: #ff136f;
   color: #fff;
   padding: 10px 12px;
@@ -257,19 +256,28 @@ body {
   color: #1f1f1f;
 }
 
-.card-body button {
+.watches button {
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  margin: 0 -0.25rem;
+  padding: 0 0.25rem;
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  text-decoration: none;
+  background-color: #ff589b;
+  color: #fff;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 10px 12px;
-  background-color: #000000;
-  color: #fff;
-  transition: 0.5s !important;
-  cursor: pointer;
-}
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  transition-duration: 1s;
+} 
 
-.card-body button:hover {
-  background-color: #ff136f;
-  color: #fff;
+.watches button:hover {
+  box-shadow: inset 150px 0 0 0 #54b3d6;
+  color: white;
 }
 
 /* watches section ends here */
@@ -322,17 +330,27 @@ body {
 }
 
 .backpack button {
-  border: none;
-  border-radius: 10px;
-  padding: 10px 12px;
-  background-color: #000000;
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  margin: 0 -0.25rem;
+  padding: 0 0.25rem;
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  text-decoration: none;
+  background-color: #ff589b;
   color: #fff;
-  transition-duration: 0.5s !important;
-}
+  border: none;
+  border-radius: 5px;
+  padding: 10px 12px;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  transition-duration: 1s;
+} 
 
 .backpack button:hover {
-  background-color: #ff136f;
-  color: #fff;
+  box-shadow: inset 150px 0 0 0 #54b3d6;
+  color: white;
 }
 
 .backpack .card {
@@ -406,18 +424,27 @@ body {
 }
 
 .card-body button {
-  border: none;
-  border-radius: 10px;
-  padding: 10px 12px;
-  background-color: #000000;
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  margin: 0 -0.25rem;
+  padding: 0 0.25rem;
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  text-decoration: none;
+  background-color: #ff589b;
   color: #fff;
-  transition: 0.5s !important;
-  cursor: pointer;
-}
+  border: none;
+  border-radius: 5px;
+  padding: 10px 12px;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  transition-duration: 1s;
+} 
 
 .card-body button:hover {
-  background-color: #ff136f;
-  color: #fff;
+  box-shadow: inset 150px 0 0 0 #54b3d6;
+  color: white;
 }
 
 /* shoes section ends here */
@@ -461,20 +488,27 @@ body {
 }
 
 .touch button {
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  margin: 0 -0.25rem;
+  padding: 0 0.25rem;
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  text-decoration: none;
+  background-color: #ff589b;
+  color: #fff;
   border: none;
   border-radius: 5px;
   padding: 7px 20px;
-  background-color: #ff136f;
-  color: #ffffff;
   font-family: "poppins", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  transition-duration: 0.5s;
-}
+  transition-duration: 1s;
+} 
 
 .touch button:hover {
-  color: #fff;
-  background-color: #ff589b;
+  box-shadow: inset 150px 0 0 0 #54b3d6;
+  color: white;
 }
 
 /* footer section ends here */
@@ -495,3 +529,5 @@ body {
   font-weight: 400;
   font-size: 16px;
 }
+
+/* courtesy section ends here */
