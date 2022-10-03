@@ -138,24 +138,27 @@ body {
   cursor: pointer;
 }
 
-.cat1 h1 {
+.cat1 h1 a {
   color: #fff;
+  text-decoration: none;
 }
 
 .cat1 {
   background-image: linear-gradient(152.07deg, #ff9c35 1.47%, #ffd019 97.17%);
 }
 
-.cat2 h1 {
+.cat2 h1 a {
   color: #fff;
+  text-decoration: none;
 }
 
 .cat2 {
   background-image: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
 }
 
-.cat3 h1 {
+.cat3 h1 a {
   color: #fff;
+  text-decoration: none;
 }
 
 .cat3 {
@@ -168,6 +171,81 @@ body {
 }
 
 /* categories section ends here */
+
+/* watches section starts from here */
+
+
+
+.watches h1 {
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  color: #1f1f1f;
+}
+
+.watches p a {
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  text-decoration: none;
+  color: #000000;
+  transition: 0.7s;
+}
+
+.watches p a:hover {
+  box-shadow: inset 100px 0 0 0 #54b3d6;
+  color: white;
+}
+
+.watches .card {
+  border: none;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.watches .card-title {
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #1f1f1f;
+}
+
+.watches .card-text {
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #4e4e4e;
+}
+
+.card-body h5 {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 24px;
+  color: #1f1f1f;
+}
+
+.card-body button {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 12px;
+  background-color: #000000;
+  color: #fff;
+  transition: 0.5s !important;
+  cursor: pointer;
+}
+
+.card-body button:hover {
+  background-color: #ff136f;
+  color: #fff;
+}
+
+
+
+/* watches section ends here */
 
 /* shoes section starts from here */
 
