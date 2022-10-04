@@ -28,6 +28,7 @@ body {
   outline: none !important;
   border: none;
   background: #f1f1f1;
+  resize: none;
 }
 
 .nav-link {
@@ -174,11 +175,14 @@ body {
 
 .cat4 {
   background-image: linear-gradient( to right, #8e44ad, #9b59b6);
+  
 }
 
 .cat4 img {
   height: 100px;
-  width: 150px;
+  width: 160px;
+  margin-left: 10vw;
+  
 }
 
 .cat5 h1 a {
