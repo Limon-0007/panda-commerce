@@ -246,6 +246,11 @@ body {
   color: #1f1f1f;
 }
 
+.card img:hover {
+  transform: scale(0.9);
+  transition: 0.5s;
+}
+
 .watches .card-text {
   font-family: "Inter Tight", sans-serif;
   font-weight: 400;
