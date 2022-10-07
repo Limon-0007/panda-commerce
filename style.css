@@ -99,6 +99,20 @@ body {
   color: #fff;
 }
 
+@media (max-width: 420px) {
+  .carousel-item .row {
+    flex-direction: column-reverse;
+  }
+}
+
+
+@media (max-width: 540px) {
+  .carousel-item .row {
+    flex-direction: column-reverse;
+  }
+}
+
+
 /* carousel section ends here */
 
 /* categories section starts from here */
@@ -174,15 +188,13 @@ body {
 }
 
 .cat4 {
-  background-image: linear-gradient( to right, #8e44ad, #9b59b6);
-  
+  background-image: linear-gradient(to right, #8e44ad, #9b59b6);
 }
 
 .cat4 img {
   height: 100px;
   width: 160px;
   margin-left: 10vw;
-  
 }
 
 .cat5 h1 a {
@@ -191,7 +203,7 @@ body {
 }
 
 .cat5 {
-  background-image: linear-gradient(to right,#27ae60, #2ecc71);
+  background-image: linear-gradient(to right, #27ae60, #2ecc71);
 }
 
 .cat5 img {
@@ -282,7 +294,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   transition-duration: 1s;
-} 
+}
 
 .watches button:hover {
   box-shadow: inset 150px 0 0 0 #54b3d6;
@@ -355,7 +367,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   transition-duration: 1s;
-} 
+}
 
 .backpack button:hover {
   box-shadow: inset 150px 0 0 0 #54b3d6;
@@ -375,8 +387,6 @@ body {
 }
 
 /* backpack section ends here */
-
-
 
 /* shoes section starts from here */
 
@@ -449,7 +459,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   transition-duration: 1s;
-} 
+}
 
 .card-body button:hover {
   box-shadow: inset 150px 0 0 0 #54b3d6;
@@ -513,7 +523,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   transition-duration: 1s;
-} 
+}
 
 .touch button:hover {
   box-shadow: inset 150px 0 0 0 #54b3d6;
@@ -546,6 +556,4 @@ body {
 
 /* courtesy section ends here */
 
-
-
-          /* the end */
+/* the end */
