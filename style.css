@@ -15,6 +15,14 @@ body {
   scroll-behavior: smooth;
 }
 
+.card img {
+  transition: 0.5s ease;
+}
+
+.card img:hover {
+  transform: scale(0.9);
+}
+
 /* some common links */
 
 /* navbar starts from here */
@@ -105,13 +113,11 @@ body {
   }
 }
 
-
 @media (max-width: 540px) {
   .carousel-item .row {
     flex-direction: column-reverse;
   }
 }
-
 
 /* carousel section ends here */
 
@@ -256,11 +262,6 @@ body {
   font-weight: 600;
   font-size: 24px;
   color: #1f1f1f;
-}
-
-.card img:hover {
-  transform: scale(0.9);
-  transition: 0.5s;
 }
 
 .watches .card-text {
