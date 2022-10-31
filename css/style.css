@@ -238,6 +238,10 @@ sticky {
   font-weight: 600;
   font-size: 36px;
   color: #1f1f1f;
+  display: inline-block;
+  /* padding: 10px;
+  background-color: orange;
+  clip-path: polygon(51% 5%, 100% 5%, 95% 52%, 100% 96%, 46% 95%, 0 95%, 5% 51%, 0 5%); */
 }
 
 .watches p a {
